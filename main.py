@@ -20,10 +20,10 @@ while True:
       tidyOrganizedInput += [i]
     else:
       if tidyOrganizedInput == []:
-        tidyOrganizedInput = [i]
+        tidyOrganizedInput = [[i]]
       elif len(tidyOrganizedInput) == 1:
-        tidyOrganizedInput[0] += [i]
-      tidyOrganizedInput[-1] += [i]
+        tidyOrganizedInput[0] += i
+      tidyOrganizedInput[-1] += i
   print("-".join(tidyOrganizedInput))
   print("_".join(tidyOrganizedInput))
   print("~".join(tidyOrganizedInput))
