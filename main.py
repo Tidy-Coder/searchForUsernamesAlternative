@@ -2,7 +2,7 @@
 import time
 tidyLocation = 0
 for ib in ["hello!!!"]:
-  print(:tidyLocation)
+  print(["hello!!!"][:tidyLocation])
   tidyLocation += 1
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
