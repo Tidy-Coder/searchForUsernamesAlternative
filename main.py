@@ -28,7 +28,7 @@ while True:
   print("-".join(tidyOrganizedInput))
   print("_".join(tidyOrganizedInput))
   print("~".join(tidyOrganizedInput))
-  print("the" + tidyInput[0].upper() + tidyInput[1])
+  print("the" + tidyInput[0].upper() + tidyInput[1:])
   print(tidyInput + "Account")
   print(tidyInput + "Professional")
   print(tidyInput + "IsProfessional")
