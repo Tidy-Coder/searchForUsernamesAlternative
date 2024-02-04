@@ -23,14 +23,15 @@ while True:
         tidyOrganizedInput = [[i]]
       elif len(tidyOrganizedInput) == 1:
         tidyOrganizedInput[0] += i
-      tidyOrganizedInput[-1] += i
+      else:
+        tidyOrganizedInput[-1] += i
   print("-".join(tidyOrganizedInput))
   print("_".join(tidyOrganizedInput))
   print("~".join(tidyOrganizedInput))
   print("the" + tidyInput[0].upper() + tidyInput[1])
   print(tidyInput + "Account")
   print(tidyInput + "Professional")
-  print(tidyInput + "isProfessional")
+  print(tidyInput + "IsProfessional")
   print("-".join(tidyOrganizedInput + ["Account"]))
   print("_".join(tidyOrganizedInput + ["Account"]))
   print("~".join(tidyOrganizedInput + ["Account"]))
