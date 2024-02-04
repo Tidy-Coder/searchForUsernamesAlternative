@@ -1,8 +1,9 @@
 # This is Python code...
 import time
 tidyLocation = 0
-for ib in ["hello!!!"]:
-  print(["hello!!!"][:tidyLocation])
+tidyHello = ["hello!!!"]
+for ib in tidyHello:
+  print(tidyHello[:tidyLocation])
   tidyLocation += 1
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
