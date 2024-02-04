@@ -20,7 +20,7 @@ while True:
       tidyOrganizedInput += [i]
     else:
       if tidyOrganizedInput == []:
-        tidyOrganizedInput = [[i]]
+        tidyOrganizedInput = [i]
       elif len(tidyOrganizedInput) == 1:
         tidyOrganizedInput[0] += i
       else:
@@ -47,3 +47,5 @@ while True:
   print("-".join(tidyOrganizedInput + ["isProfessional"]))
   print("_".join(tidyOrganizedInput + ["isProfessional"]))
   print("~".join(tidyOrganizedInput + ["isProfessional"]))
+  if tidyInput[0] in theAlphabet:
+    print("Try with " + tidyInput[0].upper() + tidyInput[1:])
