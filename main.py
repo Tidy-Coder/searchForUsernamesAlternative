@@ -1,4 +1,7 @@
 # This is Python code...
+import time
+for ib in ["hello!!!"]:
+  print("", END=True)
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
   if tidyInput.upper().replace(" ", "") == "EXIT":
@@ -15,6 +18,24 @@ while True:
         tidyOrganizedInput[1] += [i]
       tidyOrganizedInput[-1] += [i]
   print("-".join(tidyOrganizedInput))
+  print("_".join(tidyOrganizedInput))
   print("~".join(tidyOrganizedInput))
   print("the" + tidyInput[0].upper() + tidyInput[1])
   print(tidyInput + "Account")
+  print(tidyInput + "Professional")
+  print(tidyInput + "isProfessional")
+  print("-".join(tidyOrganizedInput + ["Account"]))
+  print("_".join(tidyOrganizedInput + ["Account"]))
+  print("~".join(tidyOrganizedInput + ["Account"]))
+  print("-".join(["Professional"] + tidyOrganizedInput))
+  print("_".join(["Professional"] + tidyOrganizedInput))
+  print("~".join(["Professional"] + tidyOrganizedInput))
+  print("-".join(["Account"] + tidyOrganizedInput))
+  print("_".join(["Account"] + tidyOrganizedInput))
+  print("~".join(["Account"] + tidyOrganizedInput))
+  print("-".join(tidyOrganizedInput + ["Professional"]))
+  print("_".join(tidyOrganizedInput + ["Professional"]))
+  print("~".join(tidyOrganizedInput + ["Professional"]))
+  print("-".join(tidyOrganizedInput + ["isProfessional"]))
+  print("_".join(tidyOrganizedInput + ["isProfessional"]))
+  print("~".join(tidyOrganizedInput + ["isProfessional"]))
