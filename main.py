@@ -6,7 +6,7 @@ for ib in tidyHello:
   if tidyLocation == 0:
     print(tidyHello[0])
   else:
-    print(tidyHello[:tidyLocation])
+    print(tidyHello[:tidyLocation + 1])
   tidyLocation += 1
   time.sleep(0.15)
 while True:
