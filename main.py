@@ -7,8 +7,8 @@ for ib in tidyHello:
     print(tidyHello[0])
   else:
     print(tidyHello[:tidyLocation])
-  time.sleep(0.15)
   tidyLocation += 1
+  time.sleep(0.15)
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
   if tidyInput.upper().replace(" ", "") == "EXIT":
