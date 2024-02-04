@@ -4,7 +4,7 @@ tidyLocation = 0
 tidyHello = "hello!!!"
 for ib in tidyHello:
   print(tidyHello[:tidyLocation])
-  time.sleep()
+  time.sleep(105)
   tidyLocation += 1
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
