@@ -3,8 +3,11 @@ import time
 tidyLocation = 0
 tidyHello = "hello!!!"
 for ib in tidyHello:
-  print(tidyHello[:tidyLocation])
-  time.sleep(105)
+  if tidyLocation == 0:
+    print(tidyHello[0])
+  else:
+    print(tidyHello[:tidyLocation])
+  time.sleep(0.15)
   tidyLocation += 1
 while True:
   tidyInput = input("Please enter a username, or enter \"exit\" to exit...")
